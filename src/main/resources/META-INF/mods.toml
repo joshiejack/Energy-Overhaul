@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+    modId="energyoverhaul"
+    version="${mod_version}"
+    displayName="Energy Overhaul"
+    authors="joshiejack"
+    description='''Booya'''
+[[dependencies.energyoverhaul]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.energyoverhaul]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.energyoverhaul]]
+    modId="penguinlib"
+    mandatory=true
+    versionRange="${penguinlib_range}"
+    ordering="NONE"
+    side="BOTH"
